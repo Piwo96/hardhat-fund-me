@@ -16,6 +16,8 @@ const config: HardhatUserConfig = {
     },
     defaultNetwork: "hardhat",
     networks: {
+        hardhat: {
+        },
         rinkeby: {
             url: RINKEBY_RPC_URL,
             accounts: [PRIVATE_KEY],
